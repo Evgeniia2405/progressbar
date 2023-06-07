@@ -1,11 +1,12 @@
 import "./App.css";
-import ProgressBar from "../ProgressBar/ProgressBar";
+// import Completion from "../Сompletion/Сompletion";
+import ScanningBox from "../ScanningBox/ScanningBox"
 
 function App() {
   return (
     <div className="page">
-      <ProgressBar value={3} maxValue={4} type="goods" />
-      <ProgressBar value={1} maxValue={4} type="assembly" />
+      {/* <Completion /> */}
+      <ScanningBox typeBox={'MYC'}/>
     </div>
   );
 }

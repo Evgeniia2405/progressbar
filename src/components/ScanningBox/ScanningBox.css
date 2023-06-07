@@ -1,0 +1,63 @@
+.scanningbox__container {
+  display: flex;
+  flex-direction: column;
+  width: 828px;
+  text-align: center;
+}
+
+.scanningbox__text {
+  margin: 0 auto;
+  font-family: "YandexSansDisplay";
+  font-weight: 700;
+  line-height: 68px;
+  font-size: 56px;
+  color: #212121;
+}
+
+.scanningbox__text-accent {
+  margin: 0 auto;
+  font-family: "YandexSansText";
+  font-weight: 700;
+  line-height: 68px;
+  font-size: 56px;
+  color: #FEFEFE;
+  border-radius: 12px;
+  padding-left:24px;
+  padding-right: 24px;
+}
+
+.scanningbox__text-accent_theme_red {
+  background-color: #FF0000;
+}
+
+.scanningbox__text-accent_theme_golden {
+  background-color: #F29A00;
+}
+
+.scanningbox__text-accent_theme_purple {
+  background-color: #8A35B3;
+}
+
+.scanningbox__text-accent_theme_green {
+  background-color: #16523B;
+}
+
+.scanningbox__text-accent_theme_coral {
+  background-color: #F73E47;
+}
+
+.scanningbox__text-accent_theme_darkred {
+  background-color: #A7070F;
+}
+
+.scanningbox__text-accent_theme_azure {
+  background-color: #25ADD6;
+}
+
+.scanningbox__text-accent_theme_yellow {
+  background-color: #F5C401;
+}
+
+.scanningbox__text-accent_theme_brown {
+  background-color: #5D4A00;
+}
